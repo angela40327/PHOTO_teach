@@ -1,0 +1,6 @@
+{
+  "name": "旅行照片會說話：用 Google 地圖探索日本平等院",
+  "description": "以京都宇治平等院照片為核心，運用 PHOTO 教學模型（地點、歷史、觀察、思考、產出）與 Google 地圖打造的高中跨領域互動教學與自學網站。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
