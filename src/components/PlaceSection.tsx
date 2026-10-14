@@ -15,7 +15,9 @@ import {
   Search,
 } from 'lucide-react';
 
-const RIVER_LANDSCAPE_URL = '/src/assets/images/uji_river_bridge_landscape_1791862651030.jpg';
+import riverLandscapeUrl from '../assets/images/uji_river_bridge_landscape_1791862651030.jpg';
+
+const RIVER_LANDSCAPE_URL = riverLandscapeUrl;
 
 export const PlaceSection: React.FC = () => {
   const [selectedPointId, setSelectedPointId] = useState<string>('byodoin');

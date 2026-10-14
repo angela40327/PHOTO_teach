@@ -17,8 +17,11 @@ import {
   X,
 } from 'lucide-react';
 
-const HERO_PHOTO_URL = '/src/assets/images/hero_byodoin_phoenix_hall_1791862651086.jpg';
-const GARDEN_PHOTO_URL = '/src/assets/images/byodoin_pure_land_garden_1791862650855.jpg';
+import heroPhotoUrl from '../assets/images/hero_byodoin_phoenix_hall_1791862651086.jpg';
+import gardenPhotoUrl from '../assets/images/byodoin_pure_land_garden_1791862650855.jpg';
+
+const HERO_PHOTO_URL = heroPhotoUrl;
+const GARDEN_PHOTO_URL = gardenPhotoUrl;
 
 export const PhotoViewer: React.FC = () => {
   const [activeHotspotId, setActiveHotspotId] = useState<string>('phoenix');
